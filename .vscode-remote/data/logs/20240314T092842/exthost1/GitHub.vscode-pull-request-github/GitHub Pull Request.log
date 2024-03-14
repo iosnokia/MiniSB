@@ -1,0 +1,51 @@
+2024-03-14 09:28:54.016 [warning] /home/gitpod/.ssh/config: ENOENT: no such file or directory, open '/home/gitpod/.ssh/config'
+2024-03-14 09:28:54.017 [info] Activation> Extension version: 0.82.0
+2024-03-14 09:28:58.114 [info] Looking for git repository
+2024-03-14 09:28:58.114 [info] Found 0 repositories during activation
+2024-03-14 09:28:58.114 [info] Git repository found, initializing review manager and pr tree view.
+2024-03-14 09:28:58.121 [info] Registering git provider
+2024-03-14 09:28:58.121 [info] Review+0> Validate state in progress
+2024-03-14 09:28:58.121 [info] Review+0> Validating state...
+2024-03-14 09:28:58.121 [info] Review+1> Validate state in progress
+2024-03-14 09:28:58.121 [info] Review+1> Validating state...
+2024-03-14 09:28:58.121 [info] Review+2> Validate state in progress
+2024-03-14 09:28:58.121 [info] Review+2> Validating state...
+2024-03-14 09:28:58.121 [info] Review+3> Validate state in progress
+2024-03-14 09:28:58.121 [info] Review+3> Validating state...
+2024-03-14 09:28:58.121 [info] Review+4> Validate state in progress
+2024-03-14 09:28:58.121 [info] Review+4> Validating state...
+2024-03-14 09:28:58.389 [info] Found GitHub remote for folder /workspace/mini-ob/deps/3rd/googletest
+2024-03-14 09:28:58.389 [info] Found GitHub remote for folder /workspace/mini-ob/deps/3rd/benchmark
+2024-03-14 09:28:58.389 [info] Found GitHub remote for folder /workspace/mini-ob/deps/3rd/libevent
+2024-03-14 09:28:58.389 [info] Found GitHub remote for folder /workspace/mini-ob/deps/3rd/jsoncpp
+2024-03-14 09:28:58.389 [info] Found GitHub remote for folder /workspace/mini-ob
+2024-03-14 09:28:58.391 [info] Trying to use globalState for assignableUsers.
+2024-03-14 09:28:58.391 [info] Trying to use globalState for assignableUsers.
+2024-03-14 09:28:58.391 [info] Trying to use globalState for assignableUsers.
+2024-03-14 09:28:58.391 [info] Trying to use globalState for assignableUsers.
+2024-03-14 09:28:58.391 [info] Trying to use globalState for assignableUsers.
+2024-03-14 09:28:58.454 [info] Review+0> No matching pull request metadata found locally for current branch undefined
+2024-03-14 09:28:58.454 [info] Review+1> No matching pull request metadata found locally for current branch undefined
+2024-03-14 09:28:58.454 [info] Review+3> No matching pull request metadata found locally for current branch undefined
+2024-03-14 09:28:58.481 [info] Review+4> No matching pull request metadata found locally for current branch main
+2024-03-14 09:28:58.482 [info] Review+4> No matching pull request metadata found on GitHub for current branch main
+2024-03-14 09:28:58.493 [info] Review+2> No matching pull request metadata found locally for current branch release-2.1.12-stable
+2024-03-14 09:28:58.494 [info] Review+0> No matching pull request metadata found on GitHub for current branch undefined
+2024-03-14 09:28:58.495 [info] Review+1> No matching pull request metadata found on GitHub for current branch undefined
+2024-03-14 09:28:58.523 [info] Review+3> No matching pull request metadata found on GitHub for current branch undefined
+2024-03-14 09:28:58.524 [info] Review+2> No matching pull request metadata found on GitHub for current branch release-2.1.12-stable
+2024-03-14 09:28:58.739 [info] GlobalState does not exist for assignableUsers.
+2024-03-14 09:28:58.739 [info] GlobalState does not exist for assignableUsers.
+2024-03-14 09:28:58.739 [info] GlobalState does not exist for assignableUsers.
+2024-03-14 09:28:58.739 [info] GlobalState does not exist for assignableUsers.
+2024-03-14 09:28:58.739 [info] GlobalState does not exist for assignableUsers.
+2024-03-14 09:30:48.172 [info] Repo state for file:///workspace/mini-ob/deps/3rd/libevent changed.
+2024-03-14 09:30:48.172 [info] Repo file:///workspace/mini-ob/deps/3rd/libevent has already been setup.
+2024-03-14 09:30:48.174 [info] Repo state for file:///workspace/mini-ob/deps/3rd/googletest changed.
+2024-03-14 09:30:48.174 [info] Repo file:///workspace/mini-ob/deps/3rd/googletest has already been setup.
+2024-03-14 09:30:48.175 [info] Repo state for file:///workspace/mini-ob/deps/3rd/benchmark changed.
+2024-03-14 09:30:48.175 [info] Repo file:///workspace/mini-ob/deps/3rd/benchmark has already been setup.
+2024-03-14 09:30:48.201 [info] Repo state for file:///workspace/mini-ob/deps/3rd/jsoncpp changed.
+2024-03-14 09:30:48.201 [info] Repo file:///workspace/mini-ob/deps/3rd/jsoncpp has already been setup.
+2024-03-14 09:30:48.224 [info] Repo state for file:///workspace/mini-ob changed.
+2024-03-14 09:30:48.224 [info] Repo file:///workspace/mini-ob has already been setup.

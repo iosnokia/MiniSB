@@ -1,0 +1,410 @@
+2024-03-14 09:28:52.944 [info] Log level: Info
+2024-03-14 09:28:52.944 [info] Validating found git in: "git"
+2024-03-14 09:28:52.944 [info] Using git "2.43.2" from "git"
+2024-03-14 09:28:52.944 [info] > git rev-parse --show-toplevel [3ms]
+2024-03-14 09:28:52.944 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-03-14 09:28:52.944 [info] Open repository: /workspace/mini-ob
+2024-03-14 09:28:52.944 [info] > git config --get commit.template [9ms]
+2024-03-14 09:28:52.944 [info] > git rev-parse --show-toplevel [2ms]
+2024-03-14 09:28:52.944 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [16ms]
+2024-03-14 09:28:52.944 [info] > git rev-parse --show-toplevel [2ms]
+2024-03-14 09:28:52.944 [warning] ENOENT: no such file or directory, open '/workspace/mini-ob/.git/refs/remotes/origin/main'
+2024-03-14 09:28:52.944 [info] > git rev-parse refs/remotes/origin/main [10ms]
+2024-03-14 09:28:52.944 [info] > git rev-parse --show-toplevel [13ms]
+2024-03-14 09:28:52.944 [info] > git rev-parse --show-toplevel [1ms]
+2024-03-14 09:28:52.944 [info] > git status -z -uall [21ms]
+2024-03-14 09:28:52.944 [info] > git rev-parse --show-toplevel [17ms]
+2024-03-14 09:28:52.944 [info] > git config --get commit.template [41ms]
+2024-03-14 09:28:52.944 [info] > git rev-parse --show-toplevel [10ms]
+2024-03-14 09:28:52.944 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-03-14 09:28:52.944 [warning] ENOENT: no such file or directory, open '/workspace/mini-ob/.git/refs/remotes/origin/main'
+2024-03-14 09:28:52.944 [info] > git rev-parse --show-toplevel [8ms]
+2024-03-14 09:28:52.944 [info] > git rev-parse refs/remotes/origin/main [7ms]
+2024-03-14 09:28:52.944 [info] > git rev-parse --show-toplevel [6ms]
+2024-03-14 09:28:52.944 [info] > git rev-parse --show-toplevel [1ms]
+2024-03-14 09:28:52.944 [info] > git status -z -uall [15ms]
+2024-03-14 09:28:52.944 [info] > git rev-parse --show-toplevel [9ms]
+2024-03-14 09:28:52.944 [info] > git rev-parse --show-toplevel [26ms]
+2024-03-14 09:28:52.944 [info] > git rev-parse --show-toplevel [1ms]
+2024-03-14 09:28:52.944 [info] > git rev-parse --show-toplevel [1ms]
+2024-03-14 09:28:53.225 [info] > git rev-parse --show-toplevel [1ms]
+2024-03-14 09:28:53.243 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-03-14 09:28:53.247 [info] Open repository: /workspace/mini-ob/deps/3rd/libevent
+2024-03-14 09:28:53.321 [info] > git config --get commit.template [12ms]
+2024-03-14 09:28:53.322 [info] > git rev-parse --show-toplevel [2ms]
+2024-03-14 09:28:53.349 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-03-14 09:28:53.355 [info] Open repository: /workspace/mini-ob/deps/3rd/jsoncpp
+2024-03-14 09:28:53.357 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [22ms]
+2024-03-14 09:28:53.450 [info] > git status -z -uall [36ms]
+2024-03-14 09:28:53.451 [info] > git rev-parse --show-toplevel [10ms]
+2024-03-14 09:28:53.451 [info] > git config --get commit.template [23ms]
+2024-03-14 09:28:53.538 [info] > git rev-parse --git-dir --git-common-dir [21ms]
+2024-03-14 09:28:53.542 [info] Open repository: /workspace/mini-ob/deps/3rd/googletest
+2024-03-14 09:28:53.604 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [28ms]
+2024-03-14 09:28:53.618 [info] > git config --get commit.template [90ms]
+2024-03-14 09:28:53.642 [info] > git status -z -uall [25ms]
+2024-03-14 09:28:53.642 [info] > git check-ignore -v -z --stdin [12ms]
+2024-03-14 09:28:53.646 [info] > git rev-parse --show-toplevel [83ms]
+2024-03-14 09:28:53.647 [info] > git config --get commit.template [93ms]
+2024-03-14 09:28:53.712 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [72ms]
+2024-03-14 09:28:53.733 [info] > git status -z -uall [11ms]
+2024-03-14 09:28:53.733 [info] > git rev-parse --git-dir --git-common-dir [22ms]
+2024-03-14 09:28:53.737 [info] Open repository: /workspace/mini-ob/deps/3rd/benchmark
+2024-03-14 09:28:53.738 [info] > git config --get commit.template [78ms]
+2024-03-14 09:28:53.750 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [19ms]
+2024-03-14 09:28:53.821 [info] > git status -z -uall [14ms]
+2024-03-14 09:28:53.830 [info] > git config --get commit.template [80ms]
+2024-03-14 09:28:53.832 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [13ms]
+2024-03-14 09:28:53.866 [info] > git status -z -uall [24ms]
+2024-03-14 09:28:53.910 [info] > git config --get commit.template [46ms]
+2024-03-14 09:28:53.911 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [55ms]
+2024-03-14 09:28:54.013 [info] > git status -z -uall [89ms]
+2024-03-14 09:28:54.031 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [20ms]
+2024-03-14 09:28:54.137 [info] > git config --get commit.template [106ms]
+2024-03-14 09:28:54.138 [info] > git status -z -uall [96ms]
+2024-03-14 09:28:54.155 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [4ms]
+2024-03-14 09:28:54.171 [info] > git status -z -uall [6ms]
+2024-03-14 09:28:54.708 [info] > git check-ignore -v -z --stdin [20ms]
+2024-03-14 09:28:58.455 [info] > git config --local branch.undefined.remote [14ms]
+2024-03-14 09:28:58.455 [warning] git config failed: Failed to execute git
+2024-03-14 09:28:58.467 [info] > git config --local branch.undefined.remote [39ms]
+2024-03-14 09:28:58.467 [warning] git config failed: Failed to execute git
+2024-03-14 09:28:58.481 [info] > git config --local branch.main.github-pr-owner-number [64ms]
+2024-03-14 09:28:58.481 [warning] git config failed: Failed to execute git
+2024-03-14 09:28:58.482 [info] > git config --local branch.release-2.1.12-stable.github-pr-owner-number [79ms]
+2024-03-14 09:28:58.482 [warning] git config failed: Failed to execute git
+2024-03-14 09:28:58.494 [info] > git config --local branch.undefined.merge [14ms]
+2024-03-14 09:28:58.494 [warning] git config failed: Failed to execute git
+2024-03-14 09:28:58.495 [info] > git config --local branch.undefined.merge [27ms]
+2024-03-14 09:28:58.495 [warning] git config failed: Failed to execute git
+2024-03-14 09:28:58.495 [info] > git config --local branch.undefined.remote [42ms]
+2024-03-14 09:28:58.495 [warning] git config failed: Failed to execute git
+2024-03-14 09:28:58.513 [info] > git config --local branch.release-2.1.12-stable.remote [20ms]
+2024-03-14 09:28:58.513 [warning] git config failed: Failed to execute git
+2024-03-14 09:28:58.522 [info] > git config --local branch.undefined.merge [10ms]
+2024-03-14 09:28:58.522 [warning] git config failed: Failed to execute git
+2024-03-14 09:28:58.523 [info] > git config --local branch.release-2.1.12-stable.merge [2ms]
+2024-03-14 09:28:58.523 [warning] git config failed: Failed to execute git
+2024-03-14 09:30:40.238 [info] > git check-ignore -v -z --stdin [2ms]
+2024-03-14 09:30:48.061 [info] > git config --get commit.template [13ms]
+2024-03-14 09:30:48.061 [info] > git config --get commit.template [27ms]
+2024-03-14 09:30:48.061 [info] > git config --get commit.template [39ms]
+2024-03-14 09:30:48.061 [info] > git config --get commit.template [67ms]
+2024-03-14 09:30:48.063 [info] > git config --get commit.template [4ms]
+2024-03-14 09:30:48.116 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [9ms]
+2024-03-14 09:30:48.126 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [30ms]
+2024-03-14 09:30:48.144 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [57ms]
+2024-03-14 09:30:48.157 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [82ms]
+2024-03-14 09:30:48.169 [warning] ENOENT: no such file or directory, open '/workspace/mini-ob/.git/refs/remotes/origin/main'
+2024-03-14 09:30:48.170 [info] > git status -z -uall [44ms]
+2024-03-14 09:30:48.170 [info] > git status -z -uall [29ms]
+2024-03-14 09:30:48.170 [info] > git status -z -uall [15ms]
+2024-03-14 09:30:48.176 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [61ms]
+2024-03-14 09:30:48.188 [info] > git rev-parse refs/remotes/origin/main [19ms]
+2024-03-14 09:30:48.200 [info] > git status -z -uall [13ms]
+2024-03-14 09:30:48.219 [info] > git status -z -uall [20ms]
+2024-03-14 09:31:47.460 [info] > git config --get commit.template [12ms]
+2024-03-14 09:31:47.460 [info] > git config --get commit.template [24ms]
+2024-03-14 09:31:47.460 [info] > git config --get commit.template [34ms]
+2024-03-14 09:31:47.460 [info] > git config --get commit.template [45ms]
+2024-03-14 09:31:47.461 [info] > git config --get commit.template [2ms]
+2024-03-14 09:31:47.520 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [9ms]
+2024-03-14 09:31:47.532 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [40ms]
+2024-03-14 09:31:47.546 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [63ms]
+2024-03-14 09:31:47.557 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [85ms]
+2024-03-14 09:31:47.569 [info] > git status -z -uall [38ms]
+2024-03-14 09:31:47.569 [info] > git status -z -uall [25ms]
+2024-03-14 09:31:47.569 [info] > git status -z -uall [12ms]
+2024-03-14 09:31:47.573 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [54ms]
+2024-03-14 09:31:47.586 [warning] ENOENT: no such file or directory, open '/workspace/mini-ob/.git/refs/remotes/origin/main'
+2024-03-14 09:31:47.586 [info] > git status -z -uall [18ms]
+2024-03-14 09:31:47.588 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2024-03-14 09:31:47.623 [info] > git status -z -uall [17ms]
+2024-03-14 09:33:50.109 [info] > git config --get commit.template [11ms]
+2024-03-14 09:33:50.110 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-03-14 09:33:50.117 [warning] ENOENT: no such file or directory, open '/workspace/mini-ob/.git/refs/remotes/origin/main'
+2024-03-14 09:33:50.118 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-03-14 09:33:50.142 [info] > git status -z -uall [16ms]
+2024-03-14 09:33:55.167 [info] > git config --get commit.template [11ms]
+2024-03-14 09:33:55.167 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-03-14 09:33:55.175 [warning] ENOENT: no such file or directory, open '/workspace/mini-ob/.git/refs/remotes/origin/main'
+2024-03-14 09:33:55.176 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-03-14 09:33:55.199 [info] > git status -z -uall [15ms]
+2024-03-14 09:33:58.143 [info] > git config --local branch.release-2.1.12-stable.github-pr-owner-number [12ms]
+2024-03-14 09:33:58.144 [warning] git config failed: Failed to execute git
+2024-03-14 09:33:58.144 [info] > git config --local branch.main.github-pr-owner-number [1ms]
+2024-03-14 09:33:58.144 [warning] git config failed: Failed to execute git
+2024-03-14 09:34:06.394 [info] > git check-ignore -v -z --stdin [2ms]
+2024-03-14 09:34:07.648 [info] > git check-ignore -v -z --stdin [2ms]
+2024-03-14 09:34:09.490 [info] > git check-ignore -v -z --stdin [1ms]
+2024-03-14 09:34:10.906 [info] > git check-ignore -v -z --stdin [2ms]
+2024-03-14 09:34:12.491 [info] > git show --textconv :src/observer/sql/executor/command_executor.cpp [8ms]
+2024-03-14 09:34:12.492 [info] > git ls-files --stage -- /workspace/mini-ob/src/observer/sql/executor/command_executor.cpp [2ms]
+2024-03-14 09:34:12.499 [info] > git cat-file -s b819777e56fe7b3ca0bec021b2de4f5e09658d87 [1ms]
+2024-03-14 09:34:17.185 [info] > git check-ignore -v -z --stdin [2ms]
+2024-03-14 09:34:23.100 [info] > git show --textconv :src/observer/sql/executor/execute_stage.h [8ms]
+2024-03-14 09:34:23.101 [info] > git ls-files --stage -- /workspace/mini-ob/src/observer/sql/executor/execute_stage.h [1ms]
+2024-03-14 09:34:23.110 [info] > git cat-file -s 35675262732e43b6e288dce7f9ab608927add629 [1ms]
+2024-03-14 09:34:23.687 [info] > git show --textconv :src/observer/sql/executor/execute_stage.cpp [9ms]
+2024-03-14 09:34:23.688 [info] > git ls-files --stage -- /workspace/mini-ob/src/observer/sql/executor/execute_stage.cpp [1ms]
+2024-03-14 09:34:23.698 [info] > git cat-file -s 28b417f40913a3ce3b04a85e121b79bd2d04fa13 [1ms]
+2024-03-14 09:38:58.164 [info] > git config --local branch.release-2.1.12-stable.github-pr-owner-number [9ms]
+2024-03-14 09:38:58.164 [warning] git config failed: Failed to execute git
+2024-03-14 09:38:58.165 [info] > git config --local branch.main.github-pr-owner-number [2ms]
+2024-03-14 09:38:58.165 [warning] git config failed: Failed to execute git
+2024-03-14 09:43:58.185 [info] > git config --local branch.release-2.1.12-stable.github-pr-owner-number [10ms]
+2024-03-14 09:43:58.186 [warning] git config failed: Failed to execute git
+2024-03-14 09:43:58.186 [info] > git config --local branch.main.github-pr-owner-number [1ms]
+2024-03-14 09:43:58.186 [warning] git config failed: Failed to execute git
+2024-03-14 09:48:58.205 [info] > git config --local branch.release-2.1.12-stable.github-pr-owner-number [8ms]
+2024-03-14 09:48:58.205 [warning] git config failed: Failed to execute git
+2024-03-14 09:48:58.206 [info] > git config --local branch.main.github-pr-owner-number [2ms]
+2024-03-14 09:48:58.206 [warning] git config failed: Failed to execute git
+2024-03-14 09:53:58.232 [info] > git config --local branch.release-2.1.12-stable.github-pr-owner-number [12ms]
+2024-03-14 09:53:58.232 [warning] git config failed: Failed to execute git
+2024-03-14 09:53:58.233 [info] > git config --local branch.main.github-pr-owner-number [2ms]
+2024-03-14 09:53:58.233 [warning] git config failed: Failed to execute git
+2024-03-14 09:58:58.251 [info] > git config --local branch.release-2.1.12-stable.github-pr-owner-number [8ms]
+2024-03-14 09:58:58.251 [warning] git config failed: Failed to execute git
+2024-03-14 09:58:58.251 [info] > git config --local branch.main.github-pr-owner-number [1ms]
+2024-03-14 09:58:58.251 [warning] git config failed: Failed to execute git
+2024-03-14 10:03:58.281 [info] > git config --local branch.release-2.1.12-stable.github-pr-owner-number [15ms]
+2024-03-14 10:03:58.282 [warning] git config failed: Failed to execute git
+2024-03-14 10:03:58.283 [info] > git config --local branch.main.github-pr-owner-number [2ms]
+2024-03-14 10:03:58.283 [warning] git config failed: Failed to execute git
+2024-03-14 10:08:58.307 [info] > git config --local branch.release-2.1.12-stable.github-pr-owner-number [12ms]
+2024-03-14 10:08:58.307 [warning] git config failed: Failed to execute git
+2024-03-14 10:08:58.307 [info] > git config --local branch.main.github-pr-owner-number [1ms]
+2024-03-14 10:08:58.307 [warning] git config failed: Failed to execute git
+2024-03-14 10:13:58.332 [info] > git config --local branch.release-2.1.12-stable.github-pr-owner-number [14ms]
+2024-03-14 10:13:58.332 [warning] git config failed: Failed to execute git
+2024-03-14 10:13:58.333 [info] > git config --local branch.main.github-pr-owner-number [2ms]
+2024-03-14 10:13:58.333 [warning] git config failed: Failed to execute git
+2024-03-14 10:18:58.351 [info] > git config --local branch.release-2.1.12-stable.github-pr-owner-number [8ms]
+2024-03-14 10:18:58.351 [warning] git config failed: Failed to execute git
+2024-03-14 10:18:58.352 [info] > git config --local branch.main.github-pr-owner-number [1ms]
+2024-03-14 10:18:58.352 [warning] git config failed: Failed to execute git
+2024-03-14 10:23:58.372 [info] > git config --local branch.release-2.1.12-stable.github-pr-owner-number [9ms]
+2024-03-14 10:23:58.372 [warning] git config failed: Failed to execute git
+2024-03-14 10:23:58.373 [info] > git config --local branch.main.github-pr-owner-number [2ms]
+2024-03-14 10:23:58.373 [warning] git config failed: Failed to execute git
+2024-03-14 10:28:58.400 [info] > git config --local branch.release-2.1.12-stable.github-pr-owner-number [12ms]
+2024-03-14 10:28:58.400 [warning] git config failed: Failed to execute git
+2024-03-14 10:28:58.400 [info] > git config --local branch.main.github-pr-owner-number [1ms]
+2024-03-14 10:28:58.400 [warning] git config failed: Failed to execute git
+2024-03-14 10:33:58.421 [info] > git config --local branch.release-2.1.12-stable.github-pr-owner-number [9ms]
+2024-03-14 10:33:58.421 [warning] git config failed: Failed to execute git
+2024-03-14 10:33:58.422 [info] > git config --local branch.main.github-pr-owner-number [1ms]
+2024-03-14 10:33:58.422 [warning] git config failed: Failed to execute git
+2024-03-14 10:38:58.446 [info] > git config --local branch.release-2.1.12-stable.github-pr-owner-number [12ms]
+2024-03-14 10:38:58.446 [warning] git config failed: Failed to execute git
+2024-03-14 10:38:58.447 [info] > git config --local branch.main.github-pr-owner-number [2ms]
+2024-03-14 10:38:58.447 [warning] git config failed: Failed to execute git
+2024-03-14 10:39:15.650 [info] > git check-ignore -v -z --stdin [2ms]
+2024-03-14 10:43:58.471 [info] > git config --local branch.release-2.1.12-stable.github-pr-owner-number [13ms]
+2024-03-14 10:43:58.471 [warning] git config failed: Failed to execute git
+2024-03-14 10:43:58.472 [info] > git config --local branch.main.github-pr-owner-number [2ms]
+2024-03-14 10:43:58.472 [warning] git config failed: Failed to execute git
+2024-03-14 10:48:58.497 [info] > git config --local branch.release-2.1.12-stable.github-pr-owner-number [13ms]
+2024-03-14 10:48:58.497 [warning] git config failed: Failed to execute git
+2024-03-14 10:48:58.498 [info] > git config --local branch.main.github-pr-owner-number [1ms]
+2024-03-14 10:48:58.498 [warning] git config failed: Failed to execute git
+2024-03-14 10:53:58.521 [info] > git config --local branch.release-2.1.12-stable.github-pr-owner-number [11ms]
+2024-03-14 10:53:58.521 [warning] git config failed: Failed to execute git
+2024-03-14 10:53:58.522 [info] > git config --local branch.main.github-pr-owner-number [2ms]
+2024-03-14 10:53:58.522 [warning] git config failed: Failed to execute git
+2024-03-14 10:58:58.539 [info] > git config --local branch.release-2.1.12-stable.github-pr-owner-number [8ms]
+2024-03-14 10:58:58.539 [warning] git config failed: Failed to execute git
+2024-03-14 10:58:58.540 [info] > git config --local branch.main.github-pr-owner-number [1ms]
+2024-03-14 10:58:58.540 [warning] git config failed: Failed to execute git
+2024-03-14 11:02:16.123 [info] > git config --get commit.template [10ms]
+2024-03-14 11:02:16.124 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-03-14 11:02:16.131 [warning] ENOENT: no such file or directory, open '/workspace/mini-ob/.git/refs/remotes/origin/main'
+2024-03-14 11:02:16.132 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-03-14 11:02:16.155 [info] > git status -z -uall [16ms]
+2024-03-14 11:02:16.387 [info] > git ls-files --stage -- /workspace/mini-ob/src/observer/sql/executor/execute_stage.cpp [2ms]
+2024-03-14 11:02:16.396 [info] > git cat-file -s 28b417f40913a3ce3b04a85e121b79bd2d04fa13 [1ms]
+2024-03-14 11:02:16.669 [info] > git show --textconv :src/observer/sql/executor/execute_stage.cpp [1ms]
+2024-03-14 11:02:21.178 [info] > git config --get commit.template [8ms]
+2024-03-14 11:02:21.178 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-03-14 11:02:21.186 [warning] ENOENT: no such file or directory, open '/workspace/mini-ob/.git/refs/remotes/origin/main'
+2024-03-14 11:02:21.187 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-03-14 11:02:21.209 [info] > git status -z -uall [15ms]
+2024-03-14 11:02:24.008 [info] > git show --textconv :src/observer/sql/executor/drop_table_executor.cpp [9ms]
+2024-03-14 11:02:24.009 [info] > git ls-files --stage -- /workspace/mini-ob/src/observer/sql/executor/drop_table_executor.cpp [1ms]
+2024-03-14 11:02:24.017 [info] > git cat-file -s 0df8d8f3682d3fd48d5c0edf9a7d0fed73f4596a [1ms]
+2024-03-14 11:02:33.672 [info] > git show --textconv :src/observer/sql/executor/drop_table_executor.h [7ms]
+2024-03-14 11:02:33.673 [info] > git ls-files --stage -- /workspace/mini-ob/src/observer/sql/executor/drop_table_executor.h [2ms]
+2024-03-14 11:02:33.680 [info] > git cat-file -s 6059c57b53bdca3f8246bf36731964f7b66e9e0e [1ms]
+2024-03-14 11:02:34.902 [info] > git show --textconv :src/observer/sql/executor/drop_table_executor.cpp [10ms]
+2024-03-14 11:02:34.902 [info] > git ls-files --stage -- /workspace/mini-ob/src/observer/sql/executor/drop_table_executor.cpp [1ms]
+2024-03-14 11:02:34.910 [info] > git cat-file -s 0df8d8f3682d3fd48d5c0edf9a7d0fed73f4596a [1ms]
+2024-03-14 11:03:06.682 [info] > git check-ignore -v -z --stdin [1ms]
+2024-03-14 11:03:08.698 [info] > git check-ignore -v -z --stdin [2ms]
+2024-03-14 11:03:09.905 [info] > git show --textconv :src/observer/storage/table/table.cpp [15ms]
+2024-03-14 11:03:09.906 [info] > git ls-files --stage -- /workspace/mini-ob/src/observer/storage/table/table.cpp [1ms]
+2024-03-14 11:03:09.916 [info] > git cat-file -s ef039fee7df88965d584c0d1661eb53316571821 [1ms]
+2024-03-14 11:03:14.798 [info] > git show --textconv :src/observer/storage/table/table.h [9ms]
+2024-03-14 11:03:14.799 [info] > git ls-files --stage -- /workspace/mini-ob/src/observer/storage/table/table.h [1ms]
+2024-03-14 11:03:14.807 [info] > git cat-file -s 599bdfba71f6c8d6f5aacf3b71288d5c70c18923 [2ms]
+2024-03-14 11:03:25.308 [info] > git check-ignore -v -z --stdin [1ms]
+2024-03-14 11:03:26.359 [info] > git show --textconv :src/observer/storage/db/db.cpp [8ms]
+2024-03-14 11:03:26.360 [info] > git ls-files --stage -- /workspace/mini-ob/src/observer/storage/db/db.cpp [1ms]
+2024-03-14 11:03:26.368 [info] > git cat-file -s 9d02da3a0e8733f84ee044783dc76298a85d2c8e [1ms]
+2024-03-14 11:03:36.087 [info] > git show --textconv :src/observer/storage/db/db.h [12ms]
+2024-03-14 11:03:36.087 [info] > git ls-files --stage -- /workspace/mini-ob/src/observer/storage/db/db.h [1ms]
+2024-03-14 11:03:36.099 [info] > git cat-file -s 04ebbc15528d577cee5b5a7bef567d9153639505 [1ms]
+2024-03-14 11:03:39.696 [info] > git merge-base refs/heads/main refs/remotes/origin/main [1ms]
+2024-03-14 11:03:39.706 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [1ms]
+2024-03-14 11:03:40.950 [info] > git check-ignore -v -z --stdin [12ms]
+2024-03-14 11:03:40.951 [info] > git check-ignore -v -z --stdin [1ms]
+2024-03-14 11:03:58.559 [info] > git config --local branch.release-2.1.12-stable.github-pr-owner-number [8ms]
+2024-03-14 11:03:58.559 [warning] git config failed: Failed to execute git
+2024-03-14 11:03:58.560 [info] > git config --local branch.main.github-pr-owner-number [1ms]
+2024-03-14 11:03:58.560 [warning] git config failed: Failed to execute git
+2024-03-14 11:04:10.255 [info] > git show --textconv HEAD:src/observer/storage/table/table.h [24ms]
+2024-03-14 11:04:10.255 [info] > git show --textconv :src/observer/storage/table/table.h [14ms]
+2024-03-14 11:04:10.255 [info] > git ls-tree -l HEAD -- /workspace/mini-ob/src/observer/storage/table/table.h [8ms]
+2024-03-14 11:04:10.256 [info] > git ls-files --stage -- /workspace/mini-ob/src/observer/storage/table/table.h [2ms]
+2024-03-14 11:04:10.265 [info] > git cat-file -s 599bdfba71f6c8d6f5aacf3b71288d5c70c18923 [2ms]
+2024-03-14 11:04:10.777 [info] > git check-ignore -v -z --stdin [1ms]
+2024-03-14 11:04:12.824 [info] > git show --textconv HEAD:src/observer/storage/table/table.cpp [46ms]
+2024-03-14 11:04:12.824 [info] > git show --textconv :src/observer/storage/table/table.cpp [33ms]
+2024-03-14 11:04:12.824 [info] > git ls-files --stage -- /workspace/mini-ob/src/observer/storage/table/table.cpp [4ms]
+2024-03-14 11:04:12.839 [info] > git ls-tree -l HEAD -- /workspace/mini-ob/src/observer/storage/table/table.cpp [33ms]
+2024-03-14 11:04:12.841 [info] > git cat-file -s ef039fee7df88965d584c0d1661eb53316571821 [2ms]
+2024-03-14 11:04:13.356 [info] > git check-ignore -v -z --stdin [1ms]
+2024-03-14 11:04:14.286 [info] > git show --textconv HEAD:src/observer/storage/db/db.h [22ms]
+2024-03-14 11:04:14.286 [info] > git show --textconv :src/observer/storage/db/db.h [14ms]
+2024-03-14 11:04:14.286 [info] > git ls-tree -l HEAD -- /workspace/mini-ob/src/observer/storage/db/db.h [7ms]
+2024-03-14 11:04:14.287 [info] > git ls-files --stage -- /workspace/mini-ob/src/observer/storage/db/db.h [2ms]
+2024-03-14 11:04:14.296 [info] > git cat-file -s 04ebbc15528d577cee5b5a7bef567d9153639505 [3ms]
+2024-03-14 11:04:14.808 [info] > git check-ignore -v -z --stdin [1ms]
+2024-03-14 11:04:15.153 [info] > git show --textconv HEAD:src/observer/storage/db/db.cpp [27ms]
+2024-03-14 11:04:15.153 [info] > git show --textconv :src/observer/storage/db/db.cpp [18ms]
+2024-03-14 11:04:15.153 [info] > git ls-tree -l HEAD -- /workspace/mini-ob/src/observer/storage/db/db.cpp [9ms]
+2024-03-14 11:04:15.154 [info] > git ls-files --stage -- /workspace/mini-ob/src/observer/storage/db/db.cpp [2ms]
+2024-03-14 11:04:15.163 [info] > git cat-file -s 9d02da3a0e8733f84ee044783dc76298a85d2c8e [3ms]
+2024-03-14 11:04:15.675 [info] > git check-ignore -v -z --stdin [1ms]
+2024-03-14 11:04:16.031 [info] > git show --textconv HEAD:src/observer/sql/stmt/drop_table_stmt.h [23ms]
+2024-03-14 11:04:16.031 [info] > git show --textconv :src/observer/sql/stmt/drop_table_stmt.h [15ms]
+2024-03-14 11:04:16.031 [info] > git ls-tree -l HEAD -- /workspace/mini-ob/src/observer/sql/stmt/drop_table_stmt.h [8ms]
+2024-03-14 11:04:16.032 [info] > git ls-files --stage -- /workspace/mini-ob/src/observer/sql/stmt/drop_table_stmt.h [2ms]
+2024-03-14 11:04:16.040 [info] > git cat-file -s a631d00eba0ff75842e1df5c5926fbf9753adfb0 [1ms]
+2024-03-14 11:04:16.553 [info] > git check-ignore -v -z --stdin [1ms]
+2024-03-14 11:04:17.122 [info] > git show --textconv HEAD:src/observer/sql/stmt/stmt.cpp [36ms]
+2024-03-14 11:04:17.122 [info] > git show --textconv :src/observer/sql/stmt/stmt.cpp [25ms]
+2024-03-14 11:04:17.122 [info] > git ls-tree -l HEAD -- /workspace/mini-ob/src/observer/sql/stmt/stmt.cpp [13ms]
+2024-03-14 11:04:17.124 [info] > git ls-files --stage -- /workspace/mini-ob/src/observer/sql/stmt/stmt.cpp [3ms]
+2024-03-14 11:04:17.134 [info] > git cat-file -s 37d4230a56c6029617466f47b9c135b291f31b5c [2ms]
+2024-03-14 11:04:17.645 [info] > git check-ignore -v -z --stdin [1ms]
+2024-03-14 11:04:22.973 [info] > git ls-tree -l HEAD -- /workspace/mini-ob/src/observer/sql/stmt/stmt.cpp [8ms]
+2024-03-14 11:04:22.974 [info] > git ls-files --stage -- /workspace/mini-ob/src/observer/sql/stmt/stmt.cpp [2ms]
+2024-03-14 11:04:22.981 [info] > git cat-file -s 37d4230a56c6029617466f47b9c135b291f31b5c [1ms]
+2024-03-14 11:04:23.548 [info] > git show --textconv HEAD:src/observer/storage/db/db.h [21ms]
+2024-03-14 11:04:23.549 [info] > git show --textconv :src/observer/storage/db/db.h [15ms]
+2024-03-14 11:04:23.549 [info] > git ls-tree -l HEAD -- /workspace/mini-ob/src/observer/storage/db/db.h [8ms]
+2024-03-14 11:04:23.550 [info] > git ls-files --stage -- /workspace/mini-ob/src/observer/storage/db/db.h [3ms]
+2024-03-14 11:04:23.557 [info] > git cat-file -s 04ebbc15528d577cee5b5a7bef567d9153639505 [1ms]
+2024-03-14 11:04:24.280 [info] > git show --textconv HEAD:src/observer/storage/table/table.cpp [33ms]
+2024-03-14 11:04:24.280 [info] > git show --textconv :src/observer/storage/table/table.cpp [23ms]
+2024-03-14 11:04:24.280 [info] > git ls-files --stage -- /workspace/mini-ob/src/observer/storage/table/table.cpp [2ms]
+2024-03-14 11:04:24.290 [info] > git ls-tree -l HEAD -- /workspace/mini-ob/src/observer/storage/table/table.cpp [23ms]
+2024-03-14 11:04:24.292 [info] > git cat-file -s ef039fee7df88965d584c0d1661eb53316571821 [1ms]
+2024-03-14 11:04:42.066 [info] > git ls-files --stage -- /workspace/mini-ob/src/observer/storage/table/table.cpp [2ms]
+2024-03-14 11:04:42.074 [info] > git ls-tree -l HEAD -- /workspace/mini-ob/src/observer/storage/table/table.cpp [20ms]
+2024-03-14 11:04:42.075 [info] > git cat-file -s ef039fee7df88965d584c0d1661eb53316571821 [2ms]
+2024-03-14 11:04:43.638 [info] > git show --textconv :.git/COMMIT_EDITMSG [8ms]
+2024-03-14 11:04:43.639 [info] > git ls-files --stage -- /workspace/mini-ob/.git/COMMIT_EDITMSG [1ms]
+2024-03-14 11:04:43.690 [info] > git check-ignore -v -z --stdin [1ms]
+2024-03-14 11:04:43.952 [info] > git ls-files --stage -- /workspace/mini-ob/src/observer/storage/table/table.cpp [12ms]
+2024-03-14 11:04:43.960 [info] > git ls-tree -l HEAD -- /workspace/mini-ob/src/observer/storage/table/table.cpp [35ms]
+2024-03-14 11:04:43.961 [info] > git ls-files --stage -- /workspace/mini-ob/.git/COMMIT_EDITMSG [10ms]
+2024-03-14 11:04:43.962 [info] > git cat-file -s ef039fee7df88965d584c0d1661eb53316571821 [2ms]
+2024-03-14 11:04:44.240 [info] > git show --textconv HEAD:src/observer/storage/table/table.cpp [7ms]
+2024-03-14 11:04:44.248 [info] > git show --textconv :.git/COMMIT_EDITMSG [8ms]
+2024-03-14 11:04:44.249 [info] > git show --textconv :src/observer/storage/table/table.cpp [2ms]
+2024-03-14 11:05:08.782 [info] > git show --textconv HEAD:src/observer/sql/stmt/stmt.cpp [23ms]
+2024-03-14 11:05:08.782 [info] > git show --textconv :src/observer/sql/stmt/stmt.cpp [15ms]
+2024-03-14 11:05:08.782 [info] > git ls-tree -l HEAD -- /workspace/mini-ob/src/observer/sql/stmt/stmt.cpp [7ms]
+2024-03-14 11:05:08.783 [info] > git ls-files --stage -- /workspace/mini-ob/src/observer/sql/stmt/stmt.cpp [2ms]
+2024-03-14 11:05:08.792 [info] > git cat-file -s 37d4230a56c6029617466f47b9c135b291f31b5c [1ms]
+2024-03-14 11:05:11.193 [info] > git show --textconv HEAD:src/observer/storage/db/db.cpp [42ms]
+2024-03-14 11:05:11.193 [info] > git show --textconv :src/observer/storage/db/db.cpp [28ms]
+2024-03-14 11:05:11.194 [info] > git ls-tree -l HEAD -- /workspace/mini-ob/src/observer/storage/db/db.cpp [15ms]
+2024-03-14 11:05:11.195 [info] > git ls-files --stage -- /workspace/mini-ob/src/observer/storage/db/db.cpp [3ms]
+2024-03-14 11:05:11.210 [info] > git cat-file -s 9d02da3a0e8733f84ee044783dc76298a85d2c8e [1ms]
+2024-03-14 11:05:16.963 [info] > git show --textconv HEAD:src/observer/storage/db/db.h [27ms]
+2024-03-14 11:05:16.963 [info] > git show --textconv :src/observer/storage/db/db.h [18ms]
+2024-03-14 11:05:16.963 [info] > git ls-files --stage -- /workspace/mini-ob/src/observer/storage/db/db.h [3ms]
+2024-03-14 11:05:16.973 [info] > git ls-tree -l HEAD -- /workspace/mini-ob/src/observer/storage/db/db.h [20ms]
+2024-03-14 11:05:16.975 [info] > git cat-file -s 04ebbc15528d577cee5b5a7bef567d9153639505 [2ms]
+2024-03-14 11:05:20.277 [info] > git show --textconv HEAD:src/observer/storage/db/db.cpp [23ms]
+2024-03-14 11:05:20.277 [info] > git show --textconv :src/observer/storage/db/db.cpp [14ms]
+2024-03-14 11:05:20.277 [info] > git ls-tree -l HEAD -- /workspace/mini-ob/src/observer/storage/db/db.cpp [7ms]
+2024-03-14 11:05:20.278 [info] > git ls-files --stage -- /workspace/mini-ob/src/observer/storage/db/db.cpp [2ms]
+2024-03-14 11:05:20.286 [info] > git cat-file -s 9d02da3a0e8733f84ee044783dc76298a85d2c8e [2ms]
+2024-03-14 11:06:42.826 [info] > git ls-tree -l HEAD -- /workspace/mini-ob/src/observer/storage/db/db.cpp [14ms]
+2024-03-14 11:06:42.827 [info] > git ls-files --stage -- /workspace/mini-ob/src/observer/storage/db/db.cpp [2ms]
+2024-03-14 11:06:42.841 [info] > git cat-file -s 9d02da3a0e8733f84ee044783dc76298a85d2c8e [1ms]
+2024-03-14 11:07:03.127 [info] > git ls-tree -l HEAD -- /workspace/mini-ob/src/observer/storage/db/db.cpp [8ms]
+2024-03-14 11:07:03.129 [info] > git ls-files --stage -- /workspace/mini-ob/src/observer/storage/db/db.cpp [3ms]
+2024-03-14 11:07:03.136 [info] > git cat-file -s 9d02da3a0e8733f84ee044783dc76298a85d2c8e [1ms]
+2024-03-14 11:07:11.464 [info] > git show --textconv HEAD:src/observer/sql/stmt/stmt.cpp [30ms]
+2024-03-14 11:07:11.464 [info] > git show --textconv :src/observer/sql/stmt/stmt.cpp [21ms]
+2024-03-14 11:07:11.464 [info] > git ls-tree -l HEAD -- /workspace/mini-ob/src/observer/sql/stmt/stmt.cpp [12ms]
+2024-03-14 11:07:11.465 [info] > git ls-files --stage -- /workspace/mini-ob/src/observer/sql/stmt/stmt.cpp [3ms]
+2024-03-14 11:07:11.474 [info] > git cat-file -s 37d4230a56c6029617466f47b9c135b291f31b5c [1ms]
+2024-03-14 11:07:12.717 [info] > git show --textconv HEAD:src/observer/sql/stmt/drop_table_stmt.h [21ms]
+2024-03-14 11:07:12.717 [info] > git show --textconv :src/observer/sql/stmt/drop_table_stmt.h [13ms]
+2024-03-14 11:07:12.717 [info] > git ls-tree -l HEAD -- /workspace/mini-ob/src/observer/sql/stmt/drop_table_stmt.h [7ms]
+2024-03-14 11:07:12.719 [info] > git ls-files --stage -- /workspace/mini-ob/src/observer/sql/stmt/drop_table_stmt.h [2ms]
+2024-03-14 11:07:12.728 [info] > git cat-file -s a631d00eba0ff75842e1df5c5926fbf9753adfb0 [1ms]
+2024-03-14 11:07:15.104 [info] > git show --textconv HEAD:src/observer/sql/executor/drop_table_executor.cpp [34ms]
+2024-03-14 11:07:15.104 [info] > git show --textconv :src/observer/sql/executor/drop_table_executor.cpp [22ms]
+2024-03-14 11:07:15.104 [info] > git ls-tree -l HEAD -- /workspace/mini-ob/src/observer/sql/executor/drop_table_executor.cpp [11ms]
+2024-03-14 11:07:15.106 [info] > git ls-files --stage -- /workspace/mini-ob/src/observer/sql/executor/drop_table_executor.cpp [2ms]
+2024-03-14 11:07:15.119 [info] > git cat-file -s 0df8d8f3682d3fd48d5c0edf9a7d0fed73f4596a [3ms]
+2024-03-14 11:07:15.631 [info] > git check-ignore -v -z --stdin [1ms]
+2024-03-14 11:07:16.394 [info] > git show --textconv HEAD:src/observer/sql/executor/drop_table_executor.h [24ms]
+2024-03-14 11:07:16.394 [info] > git show --textconv :src/observer/sql/executor/drop_table_executor.h [15ms]
+2024-03-14 11:07:16.394 [info] > git ls-tree -l HEAD -- /workspace/mini-ob/src/observer/sql/executor/drop_table_executor.h [8ms]
+2024-03-14 11:07:16.395 [info] > git ls-files --stage -- /workspace/mini-ob/src/observer/sql/executor/drop_table_executor.h [2ms]
+2024-03-14 11:07:16.403 [info] > git cat-file -s 6059c57b53bdca3f8246bf36731964f7b66e9e0e [1ms]
+2024-03-14 11:07:16.914 [info] > git check-ignore -v -z --stdin [1ms]
+2024-03-14 11:08:58.588 [info] > git config --local branch.release-2.1.12-stable.github-pr-owner-number [14ms]
+2024-03-14 11:08:58.588 [warning] git config failed: Failed to execute git
+2024-03-14 11:08:58.589 [info] > git config --local branch.main.github-pr-owner-number [1ms]
+2024-03-14 11:08:58.589 [warning] git config failed: Failed to execute git
+2024-03-14 11:13:58.613 [info] > git config --local branch.release-2.1.12-stable.github-pr-owner-number [14ms]
+2024-03-14 11:13:58.614 [warning] git config failed: Failed to execute git
+2024-03-14 11:13:58.614 [info] > git config --local branch.main.github-pr-owner-number [1ms]
+2024-03-14 11:13:58.614 [warning] git config failed: Failed to execute git
+2024-03-14 11:18:58.632 [info] > git config --local branch.release-2.1.12-stable.github-pr-owner-number [8ms]
+2024-03-14 11:18:58.632 [warning] git config failed: Failed to execute git
+2024-03-14 11:18:58.633 [info] > git config --local branch.main.github-pr-owner-number [2ms]
+2024-03-14 11:18:58.633 [warning] git config failed: Failed to execute git
+2024-03-14 11:23:58.658 [info] > git config --local branch.release-2.1.12-stable.github-pr-owner-number [14ms]
+2024-03-14 11:23:58.658 [warning] git config failed: Failed to execute git
+2024-03-14 11:23:58.659 [info] > git config --local branch.main.github-pr-owner-number [1ms]
+2024-03-14 11:23:58.659 [warning] git config failed: Failed to execute git
+2024-03-14 11:28:58.691 [info] > git config --local branch.release-2.1.12-stable.github-pr-owner-number [16ms]
+2024-03-14 11:28:58.692 [warning] git config failed: Failed to execute git
+2024-03-14 11:28:58.693 [info] > git config --local branch.main.github-pr-owner-number [3ms]
+2024-03-14 11:28:58.693 [warning] git config failed: Failed to execute git
+2024-03-14 11:33:58.727 [info] > git config --local branch.release-2.1.12-stable.github-pr-owner-number [19ms]
+2024-03-14 11:33:58.727 [warning] git config failed: Failed to execute git
+2024-03-14 11:33:58.729 [info] > git config --local branch.main.github-pr-owner-number [3ms]
+2024-03-14 11:33:58.729 [warning] git config failed: Failed to execute git
+2024-03-14 11:38:58.755 [info] > git config --local branch.release-2.1.12-stable.github-pr-owner-number [13ms]
+2024-03-14 11:38:58.755 [warning] git config failed: Failed to execute git
+2024-03-14 11:38:58.756 [info] > git config --local branch.main.github-pr-owner-number [2ms]
+2024-03-14 11:38:58.756 [warning] git config failed: Failed to execute git
+2024-03-14 11:43:58.772 [info] > git config --local branch.release-2.1.12-stable.github-pr-owner-number [6ms]
+2024-03-14 11:43:58.773 [warning] git config failed: Failed to execute git
+2024-03-14 11:43:58.773 [info] > git config --local branch.main.github-pr-owner-number [1ms]
+2024-03-14 11:43:58.773 [warning] git config failed: Failed to execute git
+2024-03-14 11:48:58.795 [info] > git config --local branch.release-2.1.12-stable.github-pr-owner-number [11ms]
+2024-03-14 11:48:58.795 [warning] git config failed: Failed to execute git
+2024-03-14 11:48:58.796 [info] > git config --local branch.main.github-pr-owner-number [1ms]
+2024-03-14 11:48:58.796 [warning] git config failed: Failed to execute git

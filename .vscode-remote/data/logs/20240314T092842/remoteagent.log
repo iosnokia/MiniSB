@@ -1,0 +1,36 @@
+2024-03-14 09:28:42.279 [info] 
+
+
+
+
+2024-03-14 09:28:42.279 [info] Extension host agent started.
+2024-03-14 09:28:42.280 [info] Started initializing default profile extensions in extensions installation folder. file:///workspace/.vscode-remote/extensions
+2024-03-14 09:28:42.289 [info] Completed initializing default profile extensions in extensions installation folder. file:///workspace/.vscode-remote/extensions
+2024-03-14 09:28:43.805 [info] Installing builtin extension 'gitpod.gitpod-theme'...
+2024-03-14 09:28:44.107 [info] Installing builtin extension 'github.vscode-pull-request-github'...
+2024-03-14 09:28:44.129 [info] Getting Manifest... gitpod.gitpod-theme
+2024-03-14 09:28:44.129 [info] Getting Manifest... github.vscode-pull-request-github
+2024-03-14 09:28:44.159 [info] [192.168.50.137][0c8f5c16][ManagementConnection] New connection established.
+2024-03-14 09:28:45.033 [info] Installing extension: gitpod.gitpod-theme
+2024-03-14 09:28:45.033 [info] Installing extension: github.vscode-pull-request-github
+2024-03-14 09:28:48.333 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /ide/out/server-main.js
+2024-03-14 09:28:48.341 [info] Extension signature verification is not done: gitpod.gitpod-theme
+2024-03-14 09:28:48.428 [info] Extracted extension to file:///workspace/.vscode-remote/extensions/gitpod.gitpod-theme-0.0.2-universal: gitpod.gitpod-theme
+2024-03-14 09:28:48.430 [info] Renamed to /workspace/.vscode-remote/extensions/gitpod.gitpod-theme-0.0.2-universal
+2024-03-14 09:28:48.432 [info] Extracting extension completed. gitpod.gitpod-theme
+2024-03-14 09:28:48.570 [info] [192.168.177.11][f43832d1][ExtensionHostConnection] New connection established.
+2024-03-14 09:28:48.579 [info] [192.168.177.11][f43832d1][ExtensionHostConnection] <1217> Launched Extension Host Process.
+2024-03-14 09:28:48.631 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /ide/out/server-main.js
+2024-03-14 09:28:48.632 [info] Extension signature verification is not done: github.vscode-pull-request-github
+2024-03-14 09:28:48.730 [info] Extracted extension to file:///workspace/.vscode-remote/extensions/github.vscode-pull-request-github-0.82.0-universal: github.vscode-pull-request-github
+2024-03-14 09:28:48.735 [info] Renamed to /workspace/.vscode-remote/extensions/github.vscode-pull-request-github-0.82.0-universal
+2024-03-14 09:28:48.739 [info] Extracting extension completed. github.vscode-pull-request-github
+2024-03-14 09:28:48.746 [info] Extension installed successfully: gitpod.gitpod-theme
+2024-03-14 09:28:48.746 [info] Extension installed successfully: github.vscode-pull-request-github
+2024-03-14 09:28:48.749 [info] Extension 'gitpod.gitpod-theme' v0.0.2 was successfully installed.
+2024-03-14 09:28:48.749 [info] Extension 'github.vscode-pull-request-github' v0.82.0 was successfully installed.
+2024-03-14 09:28:48.927 [warning] Skipping extension /workspace/.vscode-remote/extensions/gitpod.gitpod-theme-0.0.2-universal in favour of the builtin extension /ide/extensions/gitpod.gitpod-theme.

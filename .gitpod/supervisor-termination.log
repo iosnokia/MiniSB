@@ -1,0 +1,49 @@
+[260ns] Shutting down all processes 
+[256.99µs] Terminating process supervisor with PID 36 (state: S, cmdlind: [supervisor run] <nil>). 
+[29.108737ms] Terminating main process errored: wait: no child processes 
+[32.012557ms] Terminating process sleep with PID 49742 (state: S, cmdlind: [sleep 180] <nil>). 
+[32.050717ms] Terminating main process errored: waitid: no child processes 
+[32.054267ms] Terminating process git with PID 32577 (state: S, cmdlind: [git -c user.useConfigOnly=true commit --quiet] <nil>). 
+[32.083307ms] Terminating main process errored: waitid: no child processes 
+[32.098217ms] Terminating process sh with PID 10000 (state: S, cmdlind: [sh /home/gitpod/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/bin/code-server --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --install-extension gitpod.gitpod-remote-ssh --connection-token-file /home/gitpod/.vscode-server/.863d2581ecda6849923a2118d93a088b0745d9d6.token] <nil>). 
+[32.103327ms] Terminating process node with PID 2043 (state: S, cmdlind: [/ide/node /ide/out/bootstrap-fork --type=ptyHost --logsPath /workspace/.vscode-remote/data/logs/20240314T092842] <nil>). 
+[32.178417ms] Terminating process sh with PID 38035 (state: S, cmdlind: [/bin/sh -c "/ide/extensions/git/dist/git-editor.sh" "$@" "/ide/extensions/git/dist/git-editor.sh" /workspace/mini-ob/.git/COMMIT_EDITMSG] <nil>). 
+[32.195057ms] Terminating main process errored: waitid: no child processes 
+[32.216057ms] Terminating main process errored: waitid: no child processes 
+[32.221157ms] Terminating process node with PID 10072 (state: S, cmdlind: [/home/gitpod/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/node /home/gitpod/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/server-main.js --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --install-extension gitpod.gitpod-remote-ssh --connection-token-file /home/gitpod/.vscode-server/.863d2581ecda6849923a2118d93a088b0745d9d6.token] <nil>). 
+[32.259977ms] Terminating main process errored: waitid: no child processes 
+[32.275947ms] Terminating process node with PID 2342 (state: S, cmdlind: [/ide/node /ide/extensions/json-language-features/server/dist/node/jsonServerMain --node-ipc --clientProcessId=1217] <nil>). 
+[32.281017ms] Terminating process node with PID 633 (state: S, cmdlind: [/ide/node /ide/out/bootstrap-fork --type=fileWatcher] <nil>). 
+[32.338887ms] Terminating process node with PID 1217 (state: S, cmdlind: [/ide/node --dns-result-order=ipv4first /ide/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=false] <nil>). 
+[32.354177ms] Terminating process git with PID 38030 (state: S, cmdlind: [git -c user.useConfigOnly=true commit --quiet] <nil>). 
+[32.384237ms] Terminating process node with PID 10311 (state: S, cmdlind: [/home/gitpod/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/node --dns-result-order=ipv4first /home/gitpod/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=false] <nil>). 
+[32.386607ms] Terminating main process errored: waitid: no child processes 
+[32.398937ms] Terminating main process errored: waitid: no child processes 
+[32.403477ms] Terminating main process errored: waitid: no child processes 
+[32.413587ms] Terminating main process errored: waitid: no child processes 
+[32.410187ms] Terminating main process errored: waitid: no child processes 
+[32.439487ms] Terminating process node with PID 124 (state: S, cmdlind: [/ide/node /ide/out/server-main.js --log=info --install-builtin-extension gitpod.gitpod-theme --install-builtin-extension github.vscode-pull-request-github --port 23000 --host 0.0.0.0 --without-connection-token --server-data-dir /workspace/.vscode-remote --do-not-sync --start-server] <nil>). 
+[32.489277ms] Terminating process git-editor.sh with PID 38036 (state: S, cmdlind: [/bin/sh /ide/extensions/git/dist/git-editor.sh /workspace/mini-ob/.git/COMMIT_EDITMSG] <nil>). 
+[32.526227ms] Terminating process node with PID 10322 (state: S, cmdlind: [/home/gitpod/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/node /home/gitpod/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/bootstrap-fork --type=fileWatcher] <nil>). 
+[32.549157ms] Terminating process node with PID 32584 (state: S, cmdlind: [/home/gitpod/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/node /home/gitpod/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/extensions/git/dist/git-editor-main.js /workspace/mini-ob/.git/COMMIT_EDITMSG] <nil>). 
+[32.572477ms] Terminating process node with PID 2079 (state: S, cmdlind: [/ide/node /ide/extensions/redhat.vscode-yaml/dist/languageserver.js --node-ipc --clientProcessId=1217] <nil>). 
+[32.578527ms] Terminating process git-editor.sh with PID 32583 (state: S, cmdlind: [/bin/sh /home/gitpod/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/extensions/git/dist/git-editor.sh /workspace/mini-ob/.git/COMMIT_EDITMSG] <nil>). 
+[32.623437ms] Terminating main process errored: waitid: no child processes 
+[32.555817ms] Terminating main process errored: waitid: no child processes 
+[32.626917ms] Terminating process bash with PID 10445 (state: S, cmdlind: [/bin/bash --init-file /home/gitpod/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh] <nil>). 
+[32.654357ms] Terminating process node with PID 11089 (state: S, cmdlind: [/home/gitpod/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/node /home/gitpod/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/extensions/json-language-features/server/dist/node/jsonServerMain --node-ipc --clientProcessId=10311] <nil>). 
+[32.685717ms] Terminating main process errored: waitid: no child processes 
+[32.688147ms] Terminating main process errored: waitid: no child processes 
+[32.691597ms] Terminating process bash with PID 34606 (state: S, cmdlind: [/bin/bash --init-file /home/gitpod/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh] <nil>). 
+[32.586507ms] Terminating main process errored: waitid: no child processes 
+[32.731767ms] Terminating main process errored: waitid: no child processes 
+[32.727397ms] Terminating process node with PID 10342 (state: S, cmdlind: [/home/gitpod/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/node /home/gitpod/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/bootstrap-fork --type=ptyHost --logsPath /home/gitpod/.vscode-server/data/logs/20240314T094501] <nil>). 
+[32.627117ms] Terminating main process errored: waitid: no child processes 
+[32.757087ms] Terminating process sh with PID 32582 (state: S, cmdlind: [/bin/sh -c "/home/gitpod/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/extensions/git/dist/git-editor.sh" "$@" "/home/gitpod/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/extensions/git/dist/git-editor.sh" /workspace/mini-ob/.git/COMMIT_EDITMSG] <nil>). 
+[32.765337ms] Terminating process node with PID 38037 (state: S, cmdlind: [/ide/node /ide/extensions/git/dist/git-editor-main.js /workspace/mini-ob/.git/COMMIT_EDITMSG] <nil>). 
+[32.769937ms] Terminating process cpptools with PID 11289 (state: S, cmdlind: [/home/gitpod/.vscode-server/extensions/ms-vscode.cpptools-1.19.8-linux-x64/bin/cpptools] <nil>). 
+[32.777397ms] Terminating process node with PID 15595 (state: S, cmdlind: [/home/gitpod/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/node /home/gitpod/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/extensions/markdown-language-features/server/dist/node/workerMain --node-ipc --clientProcessId=10311] <nil>). 
+[32.856197ms] Terminating process node with PID 10430 (state: S, cmdlind: [/home/gitpod/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/node /home/gitpod/.vscode-server/extensions/redhat.vscode-yaml-1.14.0/dist/languageserver.js --node-ipc --clientProcessId=10311] <nil>). 
+[33.144877ms] Terminating process bash with PID 41877 (state: R, cmdlind: [bash] <nil>). 
+[33.592617ms] Terminating main process errored: waitid: no child processes 
+[39.811276ms] Terminating main process errored: waitid: no child processes 

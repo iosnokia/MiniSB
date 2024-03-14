@@ -1,0 +1,82 @@
+======= Start docker-up at 2024-03-14T09:35:18Z =======
+time="2024-03-14T09:35:18Z" level=warning msg="missing prerequisite" command=uidmap
+time="2024-03-14T09:35:18Z" level=warning msg="missing prerequisite" command=runcV1.1.3
+time="2024-03-14T09:35:18.562193630Z" level=info msg="Starting up"
+time="2024-03-14T09:35:18.562612810Z" level=info msg="containerd not running, starting managed containerd"
+time="2024-03-14T09:35:18.563611790Z" level=info msg="started new containerd process" address=/var/run/docker/containerd/containerd.sock module=libcontainerd pid=8887
+time="2024-03-14T09:35:18.580720189Z" level=info msg="starting containerd" revision=ae07eda36dd25f8a1b98dfbf587313b99c0190bb version=1.6.28
+time="2024-03-14T09:35:18.595632478Z" level=info msg="loading plugin \"io.containerd.content.v1.content\"..." type=io.containerd.content.v1
+time="2024-03-14T09:35:18.595735978Z" level=info msg="loading plugin \"io.containerd.snapshotter.v1.aufs\"..." type=io.containerd.snapshotter.v1
+time="2024-03-14T09:35:18.596018928Z" level=info msg="skip loading plugin \"io.containerd.snapshotter.v1.aufs\"..." error="aufs is not supported (modprobe aufs failed: exec: \"modprobe\": executable file not found in $PATH \"\"): skip plugin" type=io.containerd.snapshotter.v1
+time="2024-03-14T09:35:18.596041678Z" level=info msg="loading plugin \"io.containerd.snapshotter.v1.btrfs\"..." type=io.containerd.snapshotter.v1
+time="2024-03-14T09:35:18.596228188Z" level=info msg="skip loading plugin \"io.containerd.snapshotter.v1.btrfs\"..." error="path /workspace/.docker-root/containerd/daemon/io.containerd.snapshotter.v1.btrfs (xfs) must be a btrfs filesystem to be used with the btrfs snapshotter: skip plugin" type=io.containerd.snapshotter.v1
+time="2024-03-14T09:35:18.596253728Z" level=info msg="loading plugin \"io.containerd.snapshotter.v1.devmapper\"..." type=io.containerd.snapshotter.v1
+time="2024-03-14T09:35:18.596267818Z" level=warning msg="failed to load plugin io.containerd.snapshotter.v1.devmapper" error="devmapper not configured"
+time="2024-03-14T09:35:18.596286238Z" level=info msg="loading plugin \"io.containerd.snapshotter.v1.native\"..." type=io.containerd.snapshotter.v1
+time="2024-03-14T09:35:18.596370368Z" level=info msg="loading plugin \"io.containerd.snapshotter.v1.overlayfs\"..." type=io.containerd.snapshotter.v1
+time="2024-03-14T09:35:18.596740878Z" level=info msg="loading plugin \"io.containerd.snapshotter.v1.zfs\"..." type=io.containerd.snapshotter.v1
+time="2024-03-14T09:35:18.596875747Z" level=info msg="skip loading plugin \"io.containerd.snapshotter.v1.zfs\"..." error="path /workspace/.docker-root/containerd/daemon/io.containerd.snapshotter.v1.zfs must be a zfs filesystem to be used with the zfs snapshotter: skip plugin" type=io.containerd.snapshotter.v1
+time="2024-03-14T09:35:18.596903147Z" level=info msg="loading plugin \"io.containerd.metadata.v1.bolt\"..." type=io.containerd.metadata.v1
+time="2024-03-14T09:35:18.596962958Z" level=warning msg="could not use snapshotter devmapper in metadata plugin" error="devmapper not configured"
+time="2024-03-14T09:35:18.596982047Z" level=info msg="metadata content store policy set" policy=shared
+time="2024-03-14T09:35:18.598474437Z" level=info msg="loading plugin \"io.containerd.differ.v1.walking\"..." type=io.containerd.differ.v1
+time="2024-03-14T09:35:18.598496307Z" level=info msg="loading plugin \"io.containerd.event.v1.exchange\"..." type=io.containerd.event.v1
+time="2024-03-14T09:35:18.598511557Z" level=info msg="loading plugin \"io.containerd.gc.v1.scheduler\"..." type=io.containerd.gc.v1
+time="2024-03-14T09:35:18.598559597Z" level=info msg="loading plugin \"io.containerd.warning.v1.deprecations\"..." type=io.containerd.warning.v1
+time="2024-03-14T09:35:18.598581507Z" level=info msg="loading plugin \"io.containerd.service.v1.introspection-service\"..." type=io.containerd.service.v1
+time="2024-03-14T09:35:18.598596197Z" level=info msg="loading plugin \"io.containerd.service.v1.containers-service\"..." type=io.containerd.service.v1
+time="2024-03-14T09:35:18.598611217Z" level=info msg="loading plugin \"io.containerd.service.v1.content-service\"..." type=io.containerd.service.v1
+time="2024-03-14T09:35:18.598631397Z" level=info msg="loading plugin \"io.containerd.service.v1.diff-service\"..." type=io.containerd.service.v1
+time="2024-03-14T09:35:18.598648847Z" level=info msg="loading plugin \"io.containerd.service.v1.images-service\"..." type=io.containerd.service.v1
+time="2024-03-14T09:35:18.598666717Z" level=info msg="loading plugin \"io.containerd.service.v1.leases-service\"..." type=io.containerd.service.v1
+time="2024-03-14T09:35:18.598687227Z" level=info msg="loading plugin \"io.containerd.service.v1.namespaces-service\"..." type=io.containerd.service.v1
+time="2024-03-14T09:35:18.598705567Z" level=info msg="loading plugin \"io.containerd.service.v1.snapshots-service\"..." type=io.containerd.service.v1
+time="2024-03-14T09:35:18.598725967Z" level=info msg="loading plugin \"io.containerd.runtime.v1.linux\"..." type=io.containerd.runtime.v1
+time="2024-03-14T09:35:18.598886147Z" level=info msg="loading plugin \"io.containerd.runtime.v2.task\"..." type=io.containerd.runtime.v2
+time="2024-03-14T09:35:18.599033187Z" level=info msg="loading plugin \"io.containerd.monitor.v1.cgroups\"..." type=io.containerd.monitor.v1
+time="2024-03-14T09:35:18.599288047Z" level=info msg="loading plugin \"io.containerd.service.v1.tasks-service\"..." type=io.containerd.service.v1
+time="2024-03-14T09:35:18.599315247Z" level=info msg="loading plugin \"io.containerd.grpc.v1.introspection\"..." type=io.containerd.grpc.v1
+time="2024-03-14T09:35:18.599326977Z" level=info msg="loading plugin \"io.containerd.internal.v1.restart\"..." type=io.containerd.internal.v1
+time="2024-03-14T09:35:18.599388677Z" level=info msg="loading plugin \"io.containerd.grpc.v1.containers\"..." type=io.containerd.grpc.v1
+time="2024-03-14T09:35:18.599413357Z" level=info msg="loading plugin \"io.containerd.grpc.v1.content\"..." type=io.containerd.grpc.v1
+time="2024-03-14T09:35:18.599429927Z" level=info msg="loading plugin \"io.containerd.grpc.v1.diff\"..." type=io.containerd.grpc.v1
+time="2024-03-14T09:35:18.599450327Z" level=info msg="loading plugin \"io.containerd.grpc.v1.events\"..." type=io.containerd.grpc.v1
+time="2024-03-14T09:35:18.599466217Z" level=info msg="loading plugin \"io.containerd.grpc.v1.healthcheck\"..." type=io.containerd.grpc.v1
+time="2024-03-14T09:35:18.599485857Z" level=info msg="loading plugin \"io.containerd.grpc.v1.images\"..." type=io.containerd.grpc.v1
+time="2024-03-14T09:35:18.599500327Z" level=info msg="loading plugin \"io.containerd.grpc.v1.leases\"..." type=io.containerd.grpc.v1
+time="2024-03-14T09:35:18.599514677Z" level=info msg="loading plugin \"io.containerd.grpc.v1.namespaces\"..." type=io.containerd.grpc.v1
+time="2024-03-14T09:35:18.599539117Z" level=info msg="loading plugin \"io.containerd.internal.v1.opt\"..." type=io.containerd.internal.v1
+time="2024-03-14T09:35:18.599779637Z" level=info msg="loading plugin \"io.containerd.grpc.v1.snapshots\"..." type=io.containerd.grpc.v1
+time="2024-03-14T09:35:18.599805257Z" level=info msg="loading plugin \"io.containerd.grpc.v1.tasks\"..." type=io.containerd.grpc.v1
+time="2024-03-14T09:35:18.599815647Z" level=info msg="loading plugin \"io.containerd.grpc.v1.version\"..." type=io.containerd.grpc.v1
+time="2024-03-14T09:35:18.599829807Z" level=info msg="loading plugin \"io.containerd.tracing.processor.v1.otlp\"..." type=io.containerd.tracing.processor.v1
+time="2024-03-14T09:35:18.599854577Z" level=info msg="skip loading plugin \"io.containerd.tracing.processor.v1.otlp\"..." error="no OpenTelemetry endpoint: skip plugin" type=io.containerd.tracing.processor.v1
+time="2024-03-14T09:35:18.599882867Z" level=info msg="loading plugin \"io.containerd.internal.v1.tracing\"..." type=io.containerd.internal.v1
+time="2024-03-14T09:35:18.599949077Z" level=error msg="failed to initialize a tracing processor \"otlp\"" error="no OpenTelemetry endpoint: skip plugin"
+time="2024-03-14T09:35:18.600012507Z" level=info msg="loading plugin \"io.containerd.grpc.v1.cri\"..." type=io.containerd.grpc.v1
+time="2024-03-14T09:35:18.600296197Z" level=info msg="Start cri plugin with config {PluginConfig:{ContainerdConfig:{Snapshotter:overlayfs DefaultRuntimeName:runc DefaultRuntime:{Type: Path: Engine: PodAnnotations:[] ContainerAnnotations:[] Root: Options:map[] PrivilegedWithoutHostDevices:false BaseRuntimeSpec: NetworkPluginConfDir: NetworkPluginMaxConfNum:0} UntrustedWorkloadRuntime:{Type: Path: Engine: PodAnnotations:[] ContainerAnnotations:[] Root: Options:map[] PrivilegedWithoutHostDevices:false BaseRuntimeSpec: NetworkPluginConfDir: NetworkPluginMaxConfNum:0} Runtimes:map[runc:{Type:io.containerd.runc.v2 Path: Engine: PodAnnotations:[] ContainerAnnotations:[] Root: Options:map[BinaryName: CriuImagePath: CriuPath: CriuWorkPath: IoGid:0 IoUid:0 NoNewKeyring:false NoPivotRoot:false Root: ShimCgroup: SystemdCgroup:false] PrivilegedWithoutHostDevices:false BaseRuntimeSpec: NetworkPluginConfDir: NetworkPluginMaxConfNum:0}] NoPivot:false DisableSnapshotAnnotations:true DiscardUnpackedLayers:false IgnoreRdtNotEnabledErrors:false} CniConfig:{NetworkPluginBinDir:/opt/cni/bin NetworkPluginConfDir:/etc/cni/net.d NetworkPluginMaxConfNum:1 NetworkPluginConfTemplate: IPPreference:} Registry:{ConfigPath: Mirrors:map[] Configs:map[] Auths:map[] Headers:map[]} ImageDecryption:{KeyModel:node} DisableTCPService:true StreamServerAddress:127.0.0.1 StreamServerPort:0 StreamIdleTimeout:4h0m0s EnableSelinux:false SelinuxCategoryRange:1024 SandboxImage:registry.k8s.io/pause:3.6 StatsCollectPeriod:10 SystemdCgroup:false EnableTLSStreaming:false X509KeyPairStreaming:{TLSCertFile: TLSKeyFile:} MaxContainerLogLineSize:16384 DisableCgroup:false DisableApparmor:false RestrictOOMScoreAdj:false MaxConcurrentDownloads:3 DisableProcMount:false UnsetSeccompProfile: TolerateMissingHugetlbController:true DisableHugetlbController:true DeviceOwnershipFromSecurityContext:false IgnoreImageDefinedVolumes:false NetNSMountsUnderStateDir:false EnableUnprivilegedPorts:false EnableUnprivilegedICMP:false} ContainerdRootDir:/workspace/.docker-root/containerd/daemon ContainerdEndpoint:/var/run/docker/containerd/containerd.sock RootDir:/workspace/.docker-root/containerd/daemon/io.containerd.grpc.v1.cri StateDir:/var/run/docker/containerd/daemon/io.containerd.grpc.v1.cri}"
+time="2024-03-14T09:35:18.600406057Z" level=info msg="Connect containerd service"
+time="2024-03-14T09:35:18.600757707Z" level=info msg="Get image filesystem path \"/workspace/.docker-root/containerd/daemon/io.containerd.snapshotter.v1.overlayfs\""
+time="2024-03-14T09:35:18.600790817Z" level=warning msg="Running CRI plugin in a user namespace typically requires disable_apparmor and restrict_oom_score_adj to be true"
+time="2024-03-14T09:35:18.601271777Z" level=error msg="failed to load cni during init, please check CRI plugin status before setting up network for pods" error="cni config load failed: no network config found in /etc/cni/net.d: cni plugin not initialized: failed to load cni config"
+time="2024-03-14T09:35:18.601441047Z" level=info msg="Start subscribing containerd event"
+time="2024-03-14T09:35:18.601506637Z" level=info msg="Start recovering state"
+time="2024-03-14T09:35:18.601604917Z" level=info msg="Start event monitor"
+time="2024-03-14T09:35:18.601659037Z" level=info msg=serving... address=/var/run/docker/containerd/containerd-debug.sock
+time="2024-03-14T09:35:18.601658337Z" level=info msg="Start snapshots syncer"
+time="2024-03-14T09:35:18.601705977Z" level=info msg="Start cni network conf syncer for default"
+time="2024-03-14T09:35:18.601720077Z" level=info msg="Start streaming server"
+time="2024-03-14T09:35:18.601897197Z" level=info msg=serving... address=/var/run/docker/containerd/containerd.sock.ttrpc
+time="2024-03-14T09:35:18.602095037Z" level=info msg=serving... address=/var/run/docker/containerd/containerd.sock
+time="2024-03-14T09:35:18.602123137Z" level=info msg="containerd successfully booted in 0.022227s"
+time="2024-03-14T09:35:19.600293397Z" level=info msg="Loading containers: start."
+time="2024-03-14T09:35:19.600361897Z" level=warning msg="Received a MTU of 1440, this value is very low, the network control plane can misbehave, defaulting to minimum value (500)"
+time="2024-03-14T09:35:19.665976921Z" level=warning msg="unable to disable IPv6 router advertisement" error="open /proc/sys/net/ipv6/conf/docker0/accept_ra: read-only file system"
+time="2024-03-14T09:35:19.666021161Z" level=warning msg="unable to disable IPv6 router advertisement" error="open /proc/sys/net/ipv6/conf/docker0/accept_ra: read-only file system"
+time="2024-03-14T09:35:19.742768324Z" level=info msg="Loading containers: done."
+time="2024-03-14T09:35:19.750957683Z" level=warning msg="Not using native diff for overlay2, this may cause degraded performance for building images: running in a user namespace" storage-driver=overlay2
+time="2024-03-14T09:35:19.751152373Z" level=info msg="Docker daemon" commit=f417435 containerd-snapshotter=false storage-driver=overlay2 version=25.0.3
+time="2024-03-14T09:35:19.751335483Z" level=info msg="Daemon has completed initialization"
+time="2024-03-14T09:35:19.779235460Z" level=info msg="API listen on /var/run/docker.sock"
+
+======= Stop docker-up at 2024-03-14T09:35:18Z =======
